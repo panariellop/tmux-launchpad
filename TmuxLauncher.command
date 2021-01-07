@@ -1,5 +1,4 @@
 menu(){
-  	printf "\n\n"
 	echo "-----Tmux Editor Launchpad-----"
 	echo "(l)ist Projects"
 	echo "(o)pen Project"
@@ -25,6 +24,7 @@ attach_session(){
 	menu
 }
 print_sessions() {
+  	clear
 	echo "Your projects: "
   	tmux ls	
 	menu
