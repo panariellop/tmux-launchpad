@@ -51,4 +51,5 @@ delete_project(){
 	echo "${todel} deleted." 
 	menu
 }
+clear
 menu 
